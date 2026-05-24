@@ -102,12 +102,12 @@
 各タスク完了時に、何をしたか1行で追記してよい。
 
 ### 第0段階: 環境構築
-- [ ] Spring Boot プロジェクト作成(**Maven**)
-- [ ] PostgreSQL への接続設定(環境変数経由)
-- [ ] **Flyway** 導入。`schema.sql` を `V1__initial_schema.sql` として配置し DB を初期化
-- [ ] React プロジェクト作成(**Vite + TypeScript**)
-- [ ] Firebase プロジェクト作成、認証SDKの導入
-- [ ] フロント ↔ バック の疎通確認(ヘルスチェック用エンドポイント)
+- [×] Spring Boot プロジェクト作成(**Maven**)
+- [×] PostgreSQL への接続設定(環境変数経由)
+- [×] **Flyway** 導入。`schema.sql` を `V1__initial_schema.sql` として配置し DB を初期化
+- [×] React プロジェクト作成(**Vite + TypeScript**)
+- [×] Firebase プロジェクト作成、認証SDKの導入
+- [×] フロント ↔ バック の疎通確認(ヘルスチェック用エンドポイント)
 
 ### 第1段階: MVP バックエンド
 - [ ] エンティティ作成(User / Food / MealEntry / MealEntryItem)※schema.sql に一致させる
